@@ -55,7 +55,7 @@ export default function Show({
   series,
   handleShowClick,
   handleEpisodesClick,
-}: ShowProps) {
+}: ShowProps): JSX.Element {
   const { show } = series
 
   const cleanSummary = (str: string) => {

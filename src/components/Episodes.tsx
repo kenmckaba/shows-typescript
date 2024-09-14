@@ -19,7 +19,7 @@ interface EpisodesProps {
   episodes: Episode[]
 }
 
-const Episodes = ({ episodes }: EpisodesProps) => {
+const Episodes = ({ episodes }: EpisodesProps): JSX.Element => {
   return (
     <Box>
       <Table variant="striped">

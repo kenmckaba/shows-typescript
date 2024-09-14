@@ -8,7 +8,7 @@ interface CoolButtonProps {
   // style?: React.CSSProperties
 }
 
-export default function CoolButton(props: CoolButtonProps) {
+export default function CoolButton(props: CoolButtonProps): JSX.Element {
   const { variant, children, onClick, isLoading } = props
 
   const chakraStyle = variant === 'small' ? 'sm' : 'lg'

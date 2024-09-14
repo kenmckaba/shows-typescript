@@ -13,7 +13,7 @@ export default function ShowList({
   series,
   handleShowClick,
   handleEpisodesClick,
-}: ShowListProps) {
+}: ShowListProps): JSX.Element {
   return (
     <VStack w="100%" spacing="20px">
       {series.map((series) => (
